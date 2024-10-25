@@ -171,21 +171,45 @@ img {
 }
 
 
+/* TABLET*/
+@media screen and (max-width: 768px) {
+    .row {
+        justify-content: center;
+        align-content: center;
+    }
+    
+    .col {
+        padding-top: 10px;
+        padding-bottom: 30px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
 
+    .lessons .col  , .steps .col  {
+        width: 100%;
+    }
 
-/* Extra Extra Large (xxl) */
-@media (min-width: 1600px) {
-/* Inserisci le regole CSS per xx-large */
-.row {
-    flex-wrap: wrap;
-}
+    .card {
+        width: 100%;
+    }
 
-.lessons .col {
-    width: 50%;
-}
+    .container{
+        width: 100%;
+    }
 
-.steps {
-    background-color:  #eebbc3;
- }
+    .steps {
+        background-color:  #eebbc3;
+        width: 100%;
+        margin:0rem
+    }
+ 
+    .why-us h2 {
+        padding: 40px 30px;
+    }
 
+    .why-us {
+        background-color: rgb(34,34,34);
+        width: 100%;
+        margin-bottom: 0rem;
+    }
 }
